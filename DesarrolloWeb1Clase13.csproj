@@ -88,6 +88,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\StudentDto.cs" />
     <Compile Include="Model\EstudianteHobbie.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -134,7 +135,6 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dto\" />
     <Folder Include="Service\" />
     <Folder Include="Web\" />
   </ItemGroup>
